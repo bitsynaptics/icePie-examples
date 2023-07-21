@@ -1,6 +1,6 @@
 # icePie FPGA devkit - Examples
 
-![icePie-FPGA-devkit](/icepie-examples/docs/icePie-FPGA-devkit.jpg)
+![icePie-FPGA-devkit](/docs/icePie-FPGA-devkit.jpg)
 
 Examples codes demonstrating various hardware features built into the icePie FPGA devkit board. 
 
