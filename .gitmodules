@@ -1,3 +1,9 @@
 [submodule "8-dvi/my_hdmi_device"]
 	path = 8-dvi/my_hdmi_device
 	url = https://github.com/bitsynaptics/my_hdmi_device
+[submodule "9-vusb/ice40-playground"]
+	path = 9-vusb/ice40-playground
+	url = https://github.com/bitsynaptics/ice40-playground/
+[submodule "9-vusb/usb_hid_host"]
+	path = 9-vusb/usb_hid_host
+	url = https://github.com/bitsynaptics/usb_hid_host
