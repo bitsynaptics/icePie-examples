@@ -1,7 +1,5 @@
 # icePie FPGA devkit - DVI / HDMI demo
 
-![icePie-FPGA-devkit](/icepie-examples/docs/icePie-FPGA-devkit.jpg)
-
 Example codes demonstrating implementation of DVI/HDMI output on the icePie FPGA devkit with DVI Pmod.
 
 ## Requirements
