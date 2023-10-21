@@ -16,13 +16,15 @@ Make sure the submodules are installed properly. Run `git submodule update --ini
   
   Run `make prog` from `icePie-examples/9-vusb/ice40-playground/projects/usb_audio` directory for building the FPGA bitstream.
 
-  Run `make -C fw prog` from `icePie-examples/9-vusb/ice40-playground/projects/usb_audio` directory for building the RiscV fw for USB Audio Class.
+  Run `make -C fw prog` from `icePie-examples/9-vusb/ice40-playground/projects/usb_audio` directory for building the Risc-V Firmware for USB Audio Class.
 
-  Run `miniterm.py /dev/ttyUSB0 100000` (or other terminal program on appropriate serial port) to access the Command terminal / see the Status updates.
+  Run `miniterm.py /dev/ttyUSB0 1000000` (or other terminal program on appropriate serial port) to access the Command terminal / see the Status updates.
 
 * Nand2Mario's [usb_hid_host](https://github.com/nand2mario/usb_hid_host) - USB HID Host - Keyboard / Mouse / Gamepad support
 
   Run `make` and then `make prog` from `usb_hid_host/boards/icepie/` directory.
+
+  Run `miniterm.py /dev/ttyUSB0 115200` (or other terminal program on appropriate serial port) to see the output from HID printer (Keyboard press / Mouse movements).
   
 ## Licenses
 
