@@ -1,3 +1,5 @@
+/* Ref: mmicko FPGA101 workshop tutorials - https://github.com/mmicko/fpga101-workshop/blob/master/tutorials/04-Audio/audio.v */
+
 module audio(
     input clk,
     input btn1_n,
