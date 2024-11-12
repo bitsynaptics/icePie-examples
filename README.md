@@ -1,6 +1,6 @@
 # icePie FPGA devkit - Examples
 
-![icePie-FPGA-devkit](/docs/icePie-FPGA-devkit.jpg)
+![icePie-FPGA-devkit-v2.0b](docs/icepie-fpga-devkit-v2b.png)
 
 Examples codes demonstrating various hardware features built into the icePie FPGA devkit board. 
 
@@ -8,7 +8,7 @@ Examples codes demonstrating various hardware features built into the icePie FPG
 
 * [apio](https://github.com/FPGAwars/apio)
 	```bash
-	pip install apio
+	pip install apio@git+https://github.com/bitsynaptics/apio
 	apio install --all
 	apio drivers --ftdi-enable
 	```
@@ -21,25 +21,8 @@ Examples codes demonstrating various hardware features built into the icePie FPG
   * Add the `bin` directory to PATH in `.bash_profile` for convenience (ex: `export PATH=$PATH:~/fpga/oss-cad-suite/bin`).
   * Use `make` and `make prog` on example directories with `Makefile`. `make clean` for clearing build files.
 
-## Board Support:
-
-Add the following lines to apio boards.json (use `pip show apio` to find path, typically located at `/usr/lib/python3.x/site-packages/apio/resources/boards.json`). Note to add comma at the end of last board entry and insert the lines before the last `}`.
-```
-	"icePie": {
-	    "name": "icePie",
-	    "fpga": "iCE40-UP5K-SG48",
-	    "programmer": {
-	      "type": "iceprog"
-	    },
-	    "usb": {
-	      "vid": "0403",
-	      "pid": "6010"
-	    },
-	    "ftdi": {
-	      "desc": "(?:Dual RS232-HS)|(?:icePie.*)"
-	    }
-	  }
-```
+* For Windows users, follow the [Windows Toolchain Install Guide](docs/icePie%20FPGA%20devkit%20-%20Windows%20Toolchain%20Install%20Guide.pdf)
+  
 ## Pin Mapping:
 
 The icePie FPGA devkit board is based on [1BitSquared iCEBreaker FPGA Board](https://1bitsquared.com/products/icebreaker), with similar pin mappings. 
